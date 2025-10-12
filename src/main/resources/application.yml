@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    bootstrap-servers: 3.35.8.17:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
